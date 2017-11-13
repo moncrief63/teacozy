@@ -31,6 +31,11 @@ nav span{
   display: inline-block;
   padding: 20px 10px;
 }
+.main{
+  width: 1200px;
+  display: block;
+  text-align: center;
+}
 .mission{
   margin-top: 70px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -46,16 +51,77 @@ nav span{
   display: block;
   width: 100%;
 }
-.featuredtea{
-  display: flex;
+.featuredteas{
   width: 1000px
-
+  display: flex;
 }
-.featuredtea img{
+.teas img{
   height: 200px;
   width: 300px;
 }
-.featuredtea .top{
+.top{
   width: 100%;
   display: block;
+}
+.teas{
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  left: 100px;
+}
+.locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.locations h2{
+  text-align: center;
+  display: block;
+  padding: 45px 0px 15px 0px;
+}
+.downtown{
+  background-color: black;
+  width: 300px;
+
+}
+.east{
+  background-color: black;
+  width: 300px;
+
+}
+.oakdale{
+  background-color: black;
+  width: 300px;
+
+}
+.addresses{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.addresses h3{
+  font-weight: normal;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact{
+  height: 200px;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
+footer{
+  display: flex;
 }
